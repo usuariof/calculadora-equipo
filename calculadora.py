@@ -6,5 +6,12 @@ if operacion=="+":
 else:
     if operacion=="-":
         print("Resultado:", num1-num2)
-    else
-
+    else:
+        if operacion=="x":
+            print("Resultado:", num1*num2)
+        else:
+            if operacion=="/":
+                if num2!= 0:
+                    print("Resultado:", num1/num2)
+                else:
+                    print("No se puede dividir por cero. Operacion invalida")
