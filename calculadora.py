@@ -7,6 +7,7 @@ else:
     if operacion=="-":
         print("Resultado:", num1-num2)
     else:
+
         if operacion=="x":
             print("Resultado:", num1*num2)
         else:
