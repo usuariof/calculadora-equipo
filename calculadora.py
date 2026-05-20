@@ -6,5 +6,5 @@ if operacion=="+":
 else:
     if operacion=="-":
         print("Resultado:", num1-num2)
-    else
+    else:
 
