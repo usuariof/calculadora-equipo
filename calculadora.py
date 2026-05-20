@@ -9,15 +9,8 @@ operacion = input("Elige una operacion:")
 if (operacion == "1"):
     resultado = num1+num2
     print(resultado)
-elif (operacion == "2"):
+else:
+ if (operacion == "2"):
     resultado = num1-num2
     print(resultado)
-elif (operacion == "3"):
-    resultado = num1*num2
-    print(resultado)
-elif (operacion == "4"):
-    resultado = num1 / num2
-if (num2 !=0):
-    print (resultado)
-else:
-    print("Error, el numero es 0")
+
